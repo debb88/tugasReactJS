@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Montserrat:wght@300&family=Press+Start+2P&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(images/bg.jpg);
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(16, 16, 69);
+  color: #207cca;
+}
+
+.column {
+  margin-top: 5%;
+  padding-left: 30px;
+  text-decoration: double;
+}
+
+.column1 {
+  margin-top: 7%;
+  padding-left: 30px;
+}
+
+.footer {
+  text-align: justify;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  opacity: 50%;
+}
+
+.footer li {
+  list-style: none;
+  margin: 15px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.icons {
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.genre {
+  border: #f2f2f2;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.genre li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.genre a {
+  text-decoration: underline;
+  color: lightblue;
+  font-size: 30px;
+}
+
+a:hover {
+  color: pink;
+}
+
+.about {
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+}
+
+.about2 {
+  text-align: justify;
+  padding-left: 300px;
+  padding-top: 70px;
+}
+
+.nameabout {
+  text-align: left;
+}
+
+.columnabout {
+  float: left;
+  width: 33.3%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cardabout {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.about-section {
+  padding: 100px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.containerabout {
+  padding: 0 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.containerabout::after, .rowabout::after {
+  content: "";
+  clear: both;
+  display: table;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.marginaboutimg {
+  padding-left: 30%;
+  padding-right: 80px;
+}
+
+.marginaboutimg2 {
+  padding-left: 30%;
+  padding-right: 80px;
+}
+
+.titleabout {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.buttonabout {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.buttonabout:hover {
+  background-color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 650px) {
+  .columnabout {
+    width: 100%;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+}
